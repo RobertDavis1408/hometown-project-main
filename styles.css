@@ -1,0 +1,264 @@
+/**
+<div>                
+                        <div class="activity-image"  id="activity-img-hiking"> </div>
+                        <h4 class="act-imgage-titles">Hiking trails</h4>
+                        <h4 class="act-image-description">The perfect place to relax and take a take a nature walk</h4>
+                    </div>
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+font-family: 'Caveat', cursive;
+font-family: 'Happy Monkey', cursive;
+style="position:relative" goes before  id=act header in h3
+style="position:absolute; top: 0px;" goes before  id=act sect
+
+#activity-img-hiking{
+    transform: rotate(-5deg);
+    border: solid 2px #F1FAEE;
+    border-radius: 5px;
+    box-shadow: inset 3px -3px gray;
+    background-image: url("images/hiking-1");
+    height: 90px;
+    width: 135px;
+    background-size: cover;
+}
+#activity-img-hiking:hover{
+    background-image: url("images/hiking-2");
+}
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+    height: 1115px;
+    
+   
+
+
+}
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 343px;
+    width: 720px;
+    border: solid 1px black;
+    align-items:center;
+    justify-content:space-between ;
+    background-image: url("images/randolph.jpg");
+    background-size: cover;
+    color: #F1FAEE;
+    text-shadow: 0 0 10px black;
+    
+}
+#hero-text1{
+    font-family: 'Caveat', cursive;
+    height: 34px;
+    width: 250px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 10px;
+    background: #1D3557;
+    padding: 3px 12px 5px 12px;
+    
+    
+}
+#hero-text2{
+    width: 470px;
+    height: 39px;
+    font-family: 'Arial';
+    font-style: normal;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 5px 20px 10px 20px;
+    box-shadow: 5px 5px #1D3557;
+}
+
+#ativities-header{    
+    width: 439px;
+    height: 30px;
+    left: 140px;
+    top: 39px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+    margin: 0 auto;
+
+    
+    }
+.img-pos-box{
+    width: 240px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.activity-image {
+    display: flex;
+    align-content:center; 
+    justify-content:center;
+    padding: 5px; 
+    height: 110px;
+    width: 100px;
+    
+}
+#act-section{
+    display: flex;
+    flex-direction: column;    
+    width: 720px;
+    height: 378px;
+    background: #F1FAEE;
+}
+#activity-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 170px;
+    width: 100px;
+    
+}
+
+.activity-alignment {    
+    width: 220px;
+    height: 348px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+    padding: 10px 10px;
+    
+}
+.act-imgage-titles{
+    text-align: center;
+    text-shadow: 1px 1px 5px  whitesmoke;
+    font-weight: 700;
+    font-size: 16px;
+} 
+.act-image-description{
+    text-align: center;
+    height: auto;
+    width: 220px;
+    font-weight:400;
+    font-size: 16px;
+    padding: 0 10px;
+}   
+
+
+#activity-img-gazebo{
+    background-image: url("images/gazebo-day.jpg");
+    border: solid 2px #F1FAEE;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+        
+}
+#activity-img-gazebo:hover{
+    background-image: url("images/gazebo-night.jpg");
+    
+}
+#activity-img-fair{
+    border: solid 2px #F1FAEE;
+    border-radius: 50%;
+    background-image: url("images/randolph-fair.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+#activity-img-fair:hover{
+    background-image: url("images/fair-night.jpg");
+}
+
+#activity-img-park{
+    border: solid 5px #F1FAEE;
+    border-radius: 50%;
+    background-image: url("images/park.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    
+}
+#activity-img-park:hover{
+    background-image: url("images/park-1.jpg");
+}
+#guide-section{
+    height: 394px;
+    width: 720px;
+    background-color: #FFFFFF;
+    
+}
+#guide-section-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 294px;
+    width: 400px;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    margin: 50px 160px;
+    border-radius: 10px;
+}
+#guide-img{
+    
+    height: 248.67px;
+    width: 180px;
+    background-image: url("images/rob-guide.jpg");
+    border-radius: 10px;
+    
+
+}
+#guide-info{
+    width: 189px;
+    color: #1D3557;
+}
+#guide-title{
+    width: 207px;
+    height: 32px; 
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 49px 4px 7px 0;
+     
+}
+#guide-paragraph{
+    margin: 7px 11px 13px 7px;
+    width: 189px;
+    height: 71px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center; 
+     
+}
+#guide-name{
+    margin: 26px 13px 84px 5px;
+    width: 189px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
