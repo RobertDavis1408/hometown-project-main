@@ -88,6 +88,15 @@ body {
     padding: 5px 20px 10px 20px;
     box-shadow: 5px 5px #1D3557;
 }
+#act-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    width: 720px;
+    height: 378px;
+    background: #F1FAEE;
+    padding: 0 0px;
+}
 
 #ativities-header{    
     width: 439px;
@@ -110,6 +119,7 @@ body {
     width: 240px;
     height: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border: solid 2px black;
@@ -124,14 +134,7 @@ body {
     margin: 0 20px 0 0
     
 }
-#act-section{
-    display: flex;
-    flex-direction: column;    
-    width: 720px;
-    height: 378px;
-    background: #F1FAEE;
-    padding: 0 10px;
-}
+
 #activity-sections{
     display: flex;
     flex-direction: row;
