@@ -213,7 +213,7 @@ body {
 #guide-section{
     height: 394px;
     width: 720px;
-    background-color: #FFFFFF;
+    background: linear-gradient(#F1FAEE,#FFFFFF);
     
 }
 #guide-section-box{
@@ -225,7 +225,7 @@ body {
     width: 400px;
     background-color: #A8DADC;
     box-shadow: 0px 6px 0px #1D3557;
-    margin: 50px 160px;
+    margin: 0px 160px;
     border-radius: 10px;
 }
 #guide-img{
