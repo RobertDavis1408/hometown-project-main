@@ -99,13 +99,13 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #1D3557;
     margin: 0 auto;
 
     
     }
 #act-h3{
     font-family: 'Playfair Display', serif;
+    color: #1D3557;
 }    
 .img-pos-box{
     width: 240px;
@@ -115,12 +115,13 @@ body {
     align-items: center;
 }    
 .activity-image {
-    display: flex;
-    align-content:center; 
-    justify-content:center;
-    padding: 5px; 
-    height: 110px;
+    display: block;
+    align-content: center; 
+    justify-content: center;
+    padding: 0 5px; 
+    height: 100px;
     width: 100px;
+    margin: 0 20px 0 0
     
 }
 #act-section{
@@ -129,42 +130,44 @@ body {
     width: 720px;
     height: 378px;
     background: #F1FAEE;
+    padding: 0 10px;
 }
 #activity-sections{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 170px;
-    width: 100px;
+    width: 240px;
+    padding: 0 10px;
     
 }
 
 .activity-alignment {    
-    width: 220px;
+    width: 240px;
     height: 348px;
     justify-content: center;
     align-items: center;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
     color: #1D3557;
-    padding: 10px 10px;
+    padding: 10px 0px;
+    line-height: 18.4px;
+    font-size: 16px;
     
 }
 .act-imgage-titles{
+    width: 198px;
     text-align: center;
     text-shadow: 1px 1px 5px  whitesmoke;
     font-weight: 700;
     font-size: 16px;
     color: #1D3557;
+    padding: 0 10px;
 } 
 .act-image-description{
     text-align: center;
-    height: auto;
-    width: 220px;
-    font-weight:400;
+    height: 54;
+    width: 198px;
+    font-weight: 400;
     font-size: 16px;
     padding: 0 10px;
 }   
